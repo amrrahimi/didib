@@ -1,7 +1,6 @@
-#!/bin/bash
-set -e
-cd "$(dirname "$0")"
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt pyinstaller pillow
-python3 build.py
-echo "فایل آماده است: dist/Didban.dmg"
+PySide6>=6.6
+pyqtgraph>=0.13.3
+ccxt>=4.3
+pandas>=2.0
+numpy>=1.26
+keyring>=24
